@@ -15,8 +15,8 @@ public class StudentController {
         String date = LocalDate.now()
                 .format(DateTimeFormatter.ofPattern("dd MMM yyyy"));
         return "Name: Md. Saiful Islam<br>" +
-                "Course: Spring Boot Development<br>" +
-                "Date: " + date + "<br>" +
+                "Course Name: Spring Boot Development<br>" +
+                "Current Date: " + date + "<br>" +
                 "Hello, fellow developers!";
     }
 
